@@ -2,10 +2,10 @@
 
 ## Members
 
-Tong Cai
-Kenny Rios
-Henrique Barros
-Rodrigo Freitas
+- Tong Cai
+- Kenny Rios
+- Henrique Barros
+- Rodrigo Freitas
 
 ## Project
 

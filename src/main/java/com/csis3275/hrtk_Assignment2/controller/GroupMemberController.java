@@ -19,8 +19,16 @@ public class GroupMemberController {
                         "Rodrigo",
                         "Currently working and studying, I love using tech to solve problems",
                         "http://selfie.com",
+                        "F#, Swift, TypeScript",
+                        new String[] {"www.github.com", "www.linkedin.com"}
+                ),
+                new GroupMember(
+                        "124",
+                        "Kenny",
+                        "Currently working as a graphic designer and studying computer systems",
+                        "http://selfie.com",
                         "interests",
-                        new String[] { "F#", "Swift", "TypeScript" }
+                        new String[] { "JavaScript", "Vue", "React", "UX/UI" }
                 )
         );
     }

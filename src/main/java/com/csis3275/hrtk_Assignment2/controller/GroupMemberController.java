@@ -21,7 +21,17 @@ public class GroupMemberController {
                         "http://selfie.com",
                         "interests",
                         new String[] { "F#", "Swift", "TypeScript" }
-                )
+
+                ),
+        new GroupMember(
+                "124",
+                "Kenny",
+                "Currently working as a graphic designer and studying computer systems",
+                "http://selfie.com",
+                "interests",
+                new String[] { "JavaScript", "Vue", "React", "UX/UI" }
+
+        )
         );
     }
 }

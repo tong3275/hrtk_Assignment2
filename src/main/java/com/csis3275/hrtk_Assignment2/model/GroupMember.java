@@ -5,8 +5,8 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class GroupMember {
 	private String id;
 	private String name;

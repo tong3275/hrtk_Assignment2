@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <h2 th:text="${member.getName()}">Name</h2>
                         <p th:text="${member.getDescription()}">Description</p>
-                        <div class="text-end"><a href="/members/rodrigo" class="text-right">View</a></div>
+                        <div class="text-end"><a href="/members/memberName" th:href="@{'/members/'+${member.getId()}}" class="text-right">View</a></div>
                     </div>
                 </div>
             </div>

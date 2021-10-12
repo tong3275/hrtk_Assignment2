@@ -20,7 +20,15 @@ public class MembersController {
                         "Currently working and studying, I love using tech to solve problems",
                         "/images/5301435.jpeg",
                         "F#, Swift, TypeScript",
-                        new String[] {"www.github.com", "www.linkedin.com"}
+                        new String[]{"www.github.com", "www.linkedin.com"}
+                ),
+                new GroupMember(
+                        "124",
+                        "Kenny",
+                        "Currently working as a graphic designer and studying computer systems",
+                        "http://selfie.com",
+                        "JavaScript, Vue, React, UX/UI",
+                        new String[]{"www.github.com", "www.linkedin.com"}
                 )
         ));
 

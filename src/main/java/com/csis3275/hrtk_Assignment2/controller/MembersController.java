@@ -29,7 +29,7 @@ public class MembersController {
                 "124",
                 "Kenny",
                 "Currently working as a graphic designer and studying computer systems",
-                "/images/kenny.jpeg",
+                "/images/kenny.png",
                 "JavaScript, Vue, React, UX/UI",
                 new String[]{"www.github.com", "www.linkedin.com"}
         ));

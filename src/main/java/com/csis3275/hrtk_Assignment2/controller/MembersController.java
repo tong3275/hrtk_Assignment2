@@ -23,7 +23,7 @@ public class MembersController {
                 "Currently working and studying, I love using tech to solve problems",
                 "/images/5301435.jpeg",
                 "F#, Swift, TypeScript",
-                new String[]{"www.github.com", "www.linkedin.com"}
+                new String[]{"https://www.github.com/rodsfreitas", "www.linkedin.com"}
         ));
         members.put(124, new GroupMember(
                 "124",

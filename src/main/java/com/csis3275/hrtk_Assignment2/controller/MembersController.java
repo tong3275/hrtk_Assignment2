@@ -41,6 +41,14 @@ public class MembersController {
                 "C#",
                 new String[]{"www.github.com", "www.linkedin.com"}
         ));
+        members.put(126, new GroupMember(
+                "126",
+                "Henrique",
+                "Making a switch from Legal to CSIS, trying to learn as much as I can!!",
+                "/images/241416082.jpg",
+                "C#, Java",
+                new String[]{"https://github.com/HRBarros", "https://www.linkedin.com/in/henrique-barros1/"}
+        ));
     }
 
     @GetMapping

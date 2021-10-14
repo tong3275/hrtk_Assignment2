@@ -23,7 +23,7 @@ public class MembersController {
                 "Currently working and studying, I love using tech to solve problems",
                 "/images/5301435.jpeg",
                 "F#, Swift, TypeScript",
-                new String[]{"https://www.github.com/rodsfreitas", "www.linkedin.com"}
+                new String[]{"https://www.github.com/rodsfreitas", "https://www.twitter.com/rodsfreitas"}
         ));
         members.put(124, new GroupMember(
                 "124",
@@ -31,7 +31,7 @@ public class MembersController {
                 "Currently working as a graphic designer and studying computer systems",
                 "/images/kenny.png",
                 "JavaScript, Vue, React, UX/UI",
-                new String[]{"www.github.com", "www.linkedin.com"}
+                new String[]{"https://kennyrios.github.io/portfolio/", "https://ca.linkedin.com/in/kennyrios"}
         ));
         members.put(125, new GroupMember(
                 "125",
@@ -39,7 +39,7 @@ public class MembersController {
                 "Currently learning coding. It makes me happy when I can work something out.",
                 "/images/tong.png",
                 "C#",
-                new String[]{"www.github.com", "www.linkedin.com"}
+                new String[]{"https://www.github.com/tong3275"}
         ));
         members.put(126, new GroupMember(
                 "126",

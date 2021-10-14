@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-@RequestMapping(path = "/members")
+@RequestMapping
 public class MembersController {
     static Map<Integer, GroupMember> members = new HashMap<>();
 
@@ -29,7 +29,7 @@ public class MembersController {
                 "124",
                 "Kenny",
                 "Currently working as a graphic designer and studying computer systems",
-                Constants.DEFAULT_AVATAR_URL,
+                "/images/kenny.png",
                 "JavaScript, Vue, React, UX/UI",
                 new String[]{"www.github.com", "www.linkedin.com"}
         ));
@@ -37,7 +37,7 @@ public class MembersController {
                 "125",
                 "Tong",
                 "Currently learning coding. It makes me happy when I can work something out.",
-                Constants.DEFAULT_AVATAR_URL,
+                "/images/tong.png",
                 "C#",
                 new String[]{"www.github.com", "www.linkedin.com"}
         ));
@@ -57,7 +57,7 @@ public class MembersController {
         return "members";
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/members/{id}")
     public String getMember(@PathVariable("id") int id, Model model) {
         model.addAttribute("member", members.get(id));
         return "member";

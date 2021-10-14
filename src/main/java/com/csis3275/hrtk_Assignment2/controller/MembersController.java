@@ -37,7 +37,7 @@ public class MembersController {
                 "125",
                 "Tong",
                 "Currently learning coding. It makes me happy when I can work something out.",
-                Constants.DEFAULT_AVATAR_URL,
+                "/images/tong.png",
                 "C#",
                 new String[]{"www.github.com", "www.linkedin.com"}
         ));

@@ -8,7 +8,7 @@
 <body>
     <section class="container mt-5">
         <div class="row">
-            <div th:each="member:${members}" class="col-12 col-lg-3">
+            <div th:each="member:${members}" class="card-group col-12 col-lg-3">
                 <div class="card">
                     <img class="card-img-top" th:src="${member.getSelfieURL()}" src="/">
                     <div class="card-body">
